@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> 
+        <img src="images/logo.png" alt="Restaurant Logo" height="300" weight="300"/>
+        </a>
+        <nav class="navbar">
+            <a href="index.html"> <u>Ana Sayfa-</u> </a>
+            <a href="hakkimizda.html"> <u>Hakkımızda-</u> </a>
+            <a href="menu.html"> <u>Menü-</u> </a>
+            <a href="yorumlar.html"> <u>Değerlendirmeler-</u> </a>
+            <a href="iletisim.html"> <u>İletişim-</u> </a>
+            <a href="blog.html"> <u>Bloglar-</u> </a>
+            <a href="form.html"> <u>Müşteri Kaydı-</u> </a>
+            <a href="baglanti.html"> <u>Bağlantılar</u> </a>
+        </nav>
+        <div class="buttons">
+            <button>
+               <img src="images/search.png" alt="Arama Butonu" height="13" width="13" />
+            </button>
+            <button>
+                <img src="images/cart-shopping.png" alt="Alışveriş Sepeti" height="13" width="13" />
+             </button>
+             <button>
+                <img src="images/bars.png" alt="bars" height="13" width="13" />
+             </button>
+        </div>
+    </header>
+    <h2>📋 Kayıt Formu</h2>
+    <form action="kayit_onay.html" method="get">
+        <label>Adınız Soyadınız:</label><br>
+        <input type="text" name="isim" required><br><br>
+
+        <label>E-posta Adresiniz:</label><br>
+        <input type="email" name="eposta" required><br><br>
+
+        <button type="submit">Kaydı Gönder</button>
+    </form>
+</body>
+</html>
