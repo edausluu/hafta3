@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Eda's Place - Ana Sayfa</title>
+</head>
+<body>
+
+<!--! Header Section Start -->
+<header class="header">
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Restaurant Logo" height="80" weight="80"/>
+    </a>
+    <nav class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimizda.html" class="active">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        <a href="yorumlar.html">Değerlendirmeler</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="blog.html">Bloglar</a>
+        <a href="form.html">Müşteri Kaydı</a>
+        <a href="baglanti.html">Bağlantılar</a>
+    </nav>
+    <div class="buttons">
+        <button id="search-btn">
+            <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Search Form -->
+    <div class="search-form">
+        <input type="text" class="search-input" placeholder="Arama yapın..." />
+        <i class="fas fa-search"></i>
+    </div>
+
+    <!-- Cart Items -->
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-1.png" alt="menü">
+            <div class="content">
+                <h3>Ürün 01</h3>
+                <div class="price">300₺/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-2.png" alt="menü">
+            <div class="content">
+                <h3>Ürün 02</h3>
+                <div class="price">420₺/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Sepeti Görüntüle</a>
+    </div>
+</header>
+<!--! Header Section End -->
+
+<!--! About Section Start -->
+<section class="about">
+    <h1 class="heading">Hakkımızda</h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about.jpg" alt="about">
+        </div>
+        <div class="content">
+            <h3>👩‍🍳 Eda's Place: Bir Hayalin Lezzet Dolu Hikayesi 🍽️</h3>
+            <p>Her şey, mutfağa olan sevgimle başladı. Küçüklüğümden beri yeni tatlar keşfetmeyi, sevdiklerime lezzetli yemekler hazırlamayı hep çok sevdim. Zamanla fark ettim ki, yemek sadece karın doyurmak değil, insanları bir araya getiren, anılara lezzet katan bir sanattı. İşte bu tutkuyla Eda’s Place doğdu!</p>
+            <p>Burada her yemek, özenle seçilen malzemeler ve sevgiyle harmanlanan tariflerle hazırlanıyor. Amacım, misafirlerime sadece lezzetli yemekler sunmak değil, sıcacık bir ortamda keyifli anlar yaşatmak. Geleneksel tarifleri modern dokunuşlarla buluşturuyorum.</p>
+            <p>Eğer damağınızı şımartacak, huzurlu bir mola vermek istiyorsanız, Eda’s Place tam size göre. Soframıza hoş geldiniz, lezzet dolu bir yolculuğa hazır mısınız?</p>
+            <a href="blog.html" class="btn">Daha Fazlası</a>
+        </div>
+    </div>
+
+    <!-- Ekip Üyeleri Tablosu -->
+    <table width="100%">
+        <caption><strong>Ekibimiz</strong></caption>
+        <thead>
+            <tr>
+                <th>Adı</th>
+                <th>Pozisyon</th>
+                <th>Şehir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ayşe Demir</td>
+                <td>Aşçı</td>
+                <td>İstanbul</td>
+            </tr>
+            <tr>
+                <td>Mehmet Yılmaz</td>
+                <td>Garson</td>
+                <td>Kocaeli</td>
+            </tr>
+            <tr>
+                <td>Elif Şahin</td>
+                <td>Kasa Sorumlusu</td>
+                <td>Eskişehir</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!--! About Section End -->
+
+<!--! footer section start -->
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="search">
+        <a href="keşfet.html" class="btn btn-primary">Keşfet</a>
+    </div>
+    <div class="share">
+        <a href="https://www.instagram.com/duzceuniversite/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/duzceuniversite" class="fab fa-youtube"></a>
+        <a href="https://x.com/duzceuniversite" class="fab fa-twitter"></a>
+        <a href="https://tr.linkedin.com/company/d%C3%BCzce-university" class="fab fa-linkedin"></a>
+        <a href="https://www.facebook.com/www.duzce.edu.tr/?locale=tr_TR" class="fab fa-facebook"></a>
+        <a href="https://tr.pinterest.com/unisepet/d%C3%BCzce-%C3%BCniversitesi/" class="fab fa-pinterest"></a>
+    </div>
+    <div class="credit"> 
+        created by <span>Eda Uslu</span> | all rights reserved!
+    </div>
+</section>
+<!--! footer section end -->
+</html>
