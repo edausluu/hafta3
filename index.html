@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!--! header section start -->
+    <header class="header">
+        <a href="#" class="logo"> 
+        <img src="images/logo.png" alt="Restaurant Logo" height="300" weight="300"/>
+        </a>
+        <nav class="navbar active">
+            <a href="index.html" class="active"> Ana Sayfa </a>
+            <a href="hakkimizda.html"> Hakkımızda</a>
+            <a href="menu.html"> Menü </a>
+            <a href="yorumlar.html"> Değerlendirmeler </a>
+            <a href="iletisim.html"> İletişim </a>
+            <a href="blog.html"> Bloglar </a>
+            <a href="form.html"> Müşteri Kaydı </a>
+            <a href="baglanti.html"> Bağlantılar </a>
+        </nav>
+         <div class="buttons">
+            <button id="search-btn">
+              <i class= "fas fa-search" > </i>
+            </button>
+             <button id="cart-btn">
+              <i class= "fas fa-shopping-cart" > </i>
+            </button>
+             <button id="menu-btn">
+              <i class= "fas fa-bars" > </i>
+            </button>
+        </div>
+
+        <div class="search-form ">
+            <input type="text" class="search-input" 
+            id="search-box" 
+            placeholder="Arama yapın..." />
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="menü">
+                <div class="content">
+                  <h3>Ürün 01</h3>
+                  <div class="price">300₺/-</div>
+                </div>
+                </div>
+
+                <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="menü">
+                <div class="content">
+                  <h3>Ürün 02</h3>
+                  <div class="price">420₺/-</div>
+                </div>
+                </div>
+
+                <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="menü">
+                <div class="content">
+                  <h3>Ürün 03</h3>
+                  <div class="price">480₺/-</div>
+                </div>
+                </div>
+
+                <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="menü">
+                <div class="content">
+                  <h3>Ürün 04</h3>
+                  <div class="price">520₺/-</div>
+                </div>
+                </div>
+
+                <a href="#" class="btn">Şimdi Satın Al</a>
+            </div>
+            
+        </div>
+    </header>
+    <!--! header section end -->
+
+    <!--! home section start -->
+    <section class="home">
+      <div class="content">
+        <h3>HIZLI EV TESLİMATI</h3>
+        <p>Siparişleriniz, özenle hazırlanarak en kısa sürede adresinize teslim edilir. </p>
+        <a href="menu.html" class="btn">Şimdi Sipariş Ver</a>
+      </div>
+    </section>
+    <!--! home section end -->
+
+    <!--! menu section start -->
+    <section class="menu">
+    <h1 class="heading">Menü</h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-2.png" alt="menü" />
+                <span class="menu-category">HAMBURGER</span>
+                <h3>5'li Mini Burgerler</h3>
+                <div class="price">420₺ <span>530</span></div>
+            </div>
+            
+            <div class="box-bottom">
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-3.png" alt="menü" />
+                <span class="menu-category">PIZZA</span>
+                <h3>Pizza Mix (2 Adet)</h3>
+                <div class="price">480₺ <span>620</span></div>
+            </div>
+            
+            <div class="box-bottom">
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-4.png" alt="menü" />
+                <span class="menu-category">HAMBURGER</span>
+                <h3>3 Köfteli Burger</h3>
+                <div class="price">320₺ <span>460</span></div>
+            </div>
+            
+            <div class="box-bottom">
+                <a href="#" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <!--! menu section end -->
+
+    <!--! about section start -->
+<section class="about">
+  <h1 class="heading">Hakkımızda</h1>
+  <div class="row">
+    <div class="image">
+        <img src="images/about.jpg" alt="about">
+    </div>
+    <div class="content">
+      <h3>👩‍🍳 Eda's Place: Bir Hayalin Lezzet Dolu Hikayesi 🍽️</h3>
+      <p>Her şey, mutfağa olan sevgimle başladı. Küçüklüğümden beri yeni tatlar keşfetmeyi, sevdiklerime lezzetli yemekler hazırlamayı hep çok sevdim. Zamanla fark ettim ki, yemek sadece karın doyurmak değil, insanları bir araya getiren, anılara lezzet katan bir sanattı. İşte bu tutkuyla Eda’s Place doğdu!</p>
+      <p>Burada her yemek, özenle seçilen malzemeler ve sevgiyle harmanlanan tariflerle hazırlanıyor. Amacım, misafirlerime sadece lezzetli yemekler sunmak değil, sıcacık bir ortamda keyifli anlar yaşatmak. Geleneksel tarifleri modern dokunuşlarla buluşturur.</p>
+      <p>Eğer damağınızı şımartacak, huzurlu bir mola vermek istiyorsanız, Eda’s Place tam size göre. Soframıza hoş geldiniz, lezzet dolu bir yolculuğa hazır mısınız?</p>
+     <a href="blog.html" class="btn">Daha Fazlası</a>
+    </div>
+  </div>
+</section>
+<!--! about section end -->
+
+<!--! review section start -->
+<section class="review">
+    <h1 class="heading">Değerlendirmeler</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/images/quote.png" alt="alıntı">
+            <p>"Eda's Place, lezzet dolu bir mola vermek isteyenler için mükemmel bir adres. Yemeklerin tadı harika, porsiyonlar doyurucu ve sunumlar oldukça şık. Ortam samimi, personel ilgili ve hızlı. Menüdeki çeşitlilik sayesinde herkesin damak tadına hitap eden bir lezzet bulması mümkün. Arkadaşlarla keyifli bir akşam geçirmek veya özel bir kutlama için kesinlikle tavsiye ederim!" 😊
+            <img src="images/avatar-1.png" alt="Melek Karaman" class="user"> 
+            <h3>Melek Karaman</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/quote.png" alt="alıntı">
+            <p>"Eda's Place'e ilk kez arkadaşlarımın tavsiyesiyle geldim ve gerçekten beklentilerimin çok üzerinde bir deneyim yaşadım. Menüdeki her seçenek özenle hazırlanmış, özellikle et yemekleri ve burgerleri mükemmeldi. Servis hızlı, ortam ise hem sıcak hem de modern. Arkadaşlarla güzel vakit geçirmek veya özel bir yemeğin tadını çıkarmak için harika bir yer. Kesinlikle tekrar geleceğim!" 😊</p>
+            <img src="images/avatar-2.png" alt="Hasan Çelik" class="user"> 
+            <h3>Hasan Çelik</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/quote.png" alt="alıntı">
+            <p>"Eda's Place'e adım attığınız anda kendinizi evinizde gibi hissettiriyor. Dekorasyonun sıcaklığı ve lezzetlerin tazeliği birleşince, burası gerçekten özel bir yer haline geliyor. Özellikle pizzaları ve tatlıları harika! Arkadaşlarımla burada geçirdiğimiz her an unutulmaz. Kendinizi şımartmak ve lezzet dolu anlar yaşamak istiyorsanız, Eda's Place kesinlikle doğru adres." 😊</p>
+            <img src="images/avatar-3.png" alt="Aynur Sağlam" class="user"> 
+            <h3>Lisa Sağlam</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--! review section end -->
+
+<!--! contact section start -->
+<section class="contact">
+    <h1 class="heading">İletişim</h1>
+    <div class="row"> 
+      <iframe 
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12061.729064526833!2d31.16807069059058!3d40.9062670468948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409da11bdd1f12b5%3A0xd693cae61b96bf0b!2sD%C3%BCzce%20%C3%9Cniversitesi%20Fen%20Edebiyat%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1747113437657!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form>
+      <h3>Bizimle İletişime Geç</h3>
+      <div class="inputBox">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Adınız" />
+      </div>
+      <div class="inputBox">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Mailiniz" />
+      </div>
+      <div class="inputBox">
+        <i class="fas fa-phone"></i>
+        <input type="number" placeholder="Telefon Numaranız" />
+      </div>
+     <input type="submit" class="btn" value="Gönder">
+    </form>
+    </div>
+    </div>
+</section>
+<!--! contact section end -->
+
+<!--! blog section start -->
+<section class="blog">
+    <h1 class="heading">Bloglar</h1>
+    <div class="box-container">
+
+        <!-- Blog 1 -->
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Evde Mükemmel Burger Nasıl Yapılır? 🍔</a>
+                <span>Yazar: Admin / 10 Mayıs 2025</span>
+                <p>Burger yapmak, dışarıda yediğimiz o lezzetli, sulu ve dolgun hamburgerlerin tadını evde yakalamak için harika bir fırsattır. Ancak mükemmel bir burger yapmak sadece iyi malzemelerle değil, aynı zamanda doğru tekniklerle mümkündür. Afiyet olsun! 😊</p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Pulled Beef Burger: Efsane Lezzetin Sırrı 🍔</a>
+                <span>Yazar: Admin / 12 Mayıs 2025</span>
+                <p>Pulled beef burger, yavaş pişirilmiş ve lif lif ayrılmış etin yoğun aromasıyla klasik burgerlerden çok daha farklı ve doyurucu bir lezzet sunar. Afiyet olsun! 😊</p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Burgerin Lezzetini Zirveye Taşıyan Son Dokunuşlar 🍔</a>
+                <span>Yazar: Admin / 13 Mayıs 2025</span>
+                <p>Burger yapmanın en keyifli anlarından biri, lezzetli köfteleri erimiş peynirle buluşturduğunuz o son adımdır. Afiyet olsun! 😊</p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--! blog section end -->
+
+<!--! footer section start -->
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="search">
+        <a href="keşfet.html" class="btn btn-primary">Keşfet</a>
+    </div>
+    <div class="share">
+        <a href="https://www.instagram.com/duzceuniversite/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/duzceuniversite" class="fab fa-youtube"></a>
+        <a href="https://x.com/duzceuniversite" class="fab fa-twitter"></a>
+        <a href="https://tr.linkedin.com/company/d%C3%BCzce-university" class="fab fa-linkedin"></a>
+        <a href="https://www.facebook.com/www.duzce.edu.tr/?locale=tr_TR" class="fab fa-facebook"></a>
+        <a href="https://tr.pinterest.com/unisepet/d%C3%BCzce-%C3%BCniversitesi/" class="fab fa-pinterest"></a>
+    </div>
+    <div class="credit"> 
+        created by <span>Eda Uslu</span> | all rights reserved!
+    </div>
+</section>
+<!--! footer section end -->
+
+<script src="js/script.js"></script>
+
+  </body>
+</html>
